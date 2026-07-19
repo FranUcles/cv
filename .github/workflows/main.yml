@@ -21,7 +21,7 @@ jobs:
         run: pip install "rendercv[full]"
 
       - name: Render Spanish CV
-        run: rendercv render CV_es.yml
+        run: rendercv render CV_es.yaml
 
       - name: Upload Spanish PDF as artifact
         uses: actions/upload-artifact@v4
@@ -45,7 +45,7 @@ jobs:
         run: pip install "rendercv[full]"
 
       - name: Render English CV
-        run: rendercv render CV_en.yml
+        run: rendercv render CV_en.yaml
 
       - name: Upload English PDF as artifact
         uses: actions/upload-artifact@v4
