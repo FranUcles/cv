@@ -1,0 +1,288 @@
+cv:
+  name: Francisco Ucles Ayllón
+  headline: Matemático e Ingeniero Informático
+  location: Las Torres de Cotillas, Murcia
+  email: francisco.ucles.ayllon@gmail.com
+  phone: +34 691532846
+  photo: photo.png
+  website: "https://franucles.com"
+  social_networks:
+    - network: LinkedIn
+      username: franciscoua
+    - network: GitHub
+      username: "FranUcles"
+  custom_connections: []
+  sections:
+    estudios:
+      - institution: Universidad de Murcia
+        area: Ingeniería Informática
+        degree: Grado
+        date:
+        start_date: 2020-09
+        end_date: 2026-06
+        location: Murcia, España
+        summary: Grado en Ingeniería Informática como parte de una doble titulación
+          junto al Grado en Matemáticas, con una nota media de 9.06
+        highlights:
+          - Especialización en SOs, arquitectura y programación a bajo nivel
+      - institution: Universidad de Murcia
+        area: Matemáticas
+        degree: Grado
+        date:
+        start_date: 2020-09
+        end_date: 2026-06
+        location: Murcia, España
+        summary: Grado en Matemáticas como parte de una doble titulación junto al Grado
+          en Ingeniería Informática con una media de 8.4
+      - institution: "NTNU: Norwegian University of Science and Technology"
+        area: NTNU
+        degree: Erasmus+
+        start_date: 2023-08
+        end_date: 2024-07
+        location: Trondheim, Noruega
+        summary: Realicé un Erasmus+ en Noruega donde llevé a cabo el desarrollo de un
+          videojuego junto a un equipo de 6 personas de forma completamente
+          independiente. Además, aprendí acerca de las bases de la IA, los
+          algoritmos de búsqueda, teoría de juegos, ciberseguridad, entre otros.
+        highlights: []
+      - institution: TodoCode Academy
+        area: Diseño de arquitectura
+        degree: "Cursos"
+        start_date:
+        end_date:
+        date: Verano 2024
+        location: Online
+        summary: Realicé diversos cursos (con certificación) relativos al diseño e
+          implementación de APIs y arquitecturas de microservicios.
+        highlights:
+          - "Curso: Desarrollo de APIs con Spring Boot"
+          - "Curso: Microservicios con Spring Cloud"
+          - "Curso: Spring Security"
+    experiencia:
+      - company: Highway 2022 S.L.
+        position: Desarrollador freelance
+        start_date:
+        end_date:
+        location: Murcia
+        summary: He desarrollado un sistema para automatizar y mejorar la gestión de la
+          documentación, facilitando así la organización de la empresa.
+        highlights:
+          - Desarrollo de programas en Excel para permitir gestionar y organizar
+            automáticamente los documentos de los activos de la empresa.
+          - Desarrollo de una aplicación de escritorio en Python para
+            automatizar la obtención de datos relevantes para la empresa de una
+            API.
+        date: "2026"
+      - company: Universidad de Murcia
+        position: Colaborador
+        start_date: 2025-12
+        end_date: present
+        location: Murcia
+        summary: Durante la realización de mi TFG he recibido una beca de colaboración
+          para trabajar en el departo de Ingeniería de la Información y las
+          Comunicaciones
+    Proyectos personales:
+      - name: Laboratorio de gestión de servicios
+        date:
+        start_date: 2025-09
+        end_date: 2025-12
+        location:
+        summary: Diseñé e implementé una arquitectura de servicios para el control y la
+          monitorización de la red de una empresa ficticia. Además, llevé a cabo
+          su despliegue junto al de otros servicios mediante virtualización.
+        highlights:
+          - Diseño de una arquitectura segura y robusta para los servicios.
+          - Diseño y despliegue de un clúster de Kubernetes.
+          - Despliegue de un servidor de correo, DNS y servidor web.
+          - Despliegue y gestión de autenticación y autoautenticación mediante
+            directorio LDAP y base de datos.
+          - Despliegue en un entorno virtualizado mediante VirtualBox para
+            simular un escenario real.
+      - name: Gestor de contenedores
+        summary: Diseñé e implementé un sistema básico de gestión de contenedores al estilo Docker. Este incluye un CLI para hacer peticiones, un daemon que se encarga de gestionar todos los contenedores y un runtime (+shim) encargado de la creación y la monitorización del contenedor.
+      - name: Diseño de un motor gráfico
+        summary: Estoy implementando un pequeño motor gráfico en C++ para renderizado
+          mediante OpenGL. La intención es crear una librería que permita
+          incluir físicas y convertirlo en un motor de juego.
+        date: present
+    skills:
+      - label: Lenguajes de programación y librerías
+        details: Python, C++, CUDA, Java, R, pandas, numpy, Spring Boot, OpenGL
+      - label: Herramientas de desarrollador
+        details: Kubernetes, Docker, Git, GitHub Actions, 
+    idiomas:
+      - label: Español
+        details: Nativo
+      - label: Inglés
+        details: B2, con certificado de Cambridge
+      - label: Francés
+        details: A2, nivel básico
+      - label: Japonés
+        details: A2, nivel básico en aprendizaje
+design:
+  theme: engineeringclassic
+  page:
+    size: us-letter
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.7in
+    right_margin: 0.7in
+    show_footer: true
+    show_top_note: true
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    headline: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    footer: rgb(128, 128, 128)
+    top_note: rgb(128, 128, 128)
+  typography:
+    line_spacing: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+    font_family:
+      body: Raleway
+      name: Raleway
+      headline: Raleway
+      connections: Raleway
+      section_titles: Raleway
+    font_size:
+      body: 10pt
+      name: 30pt
+      headline: 10pt
+      connections: 10pt
+      section_titles: 1.4em
+    small_caps:
+      name: true
+      headline: true
+      connections: false
+      section_titles: true
+    bold:
+      name: false
+      headline: false
+      connections: false
+      section_titles: false
+  links:
+    underline: false
+    show_external_link_icon: false
+  header:
+    alignment: left
+    photo_width: 3.5cm
+    photo_position: left
+    photo_space_left: 0.4cm
+    photo_space_right: 0.4cm
+    space_below_name: 0.7cm
+    space_below_headline: 0.7cm
+    space_below_connections: 0.7cm
+    connections:
+      phone_number_format: national
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      separator: ''
+      space_between_connections: 0.5cm
+  section_titles:
+    type: with_full_line
+    line_thickness: 0.5pt
+    space_above: 0.5cm
+    space_below: 0.3cm
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 1.2em
+    space_between_text_based_entries: 0.3em
+    show_time_spans_in: []
+  entries:
+    date_and_location_width: 4.15cm
+    side_space: 0.2cm
+    space_between_columns: 0.1cm
+    allow_page_break: false
+    short_second_row: false
+    degree_width: 1cm
+    summary:
+      space_above: 0.12cm
+      space_left: 0cm
+    highlights:
+      bullet: •
+      nested_bullet: •
+      space_left: 0cm
+      space_above: 0.12cm
+      space_between_items: 0.12cm
+      space_between_bullet_and_text: 0.5em
+  templates:
+    footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+    top_note: '*LAST_UPDATED CURRENT_DATE*'
+    single_date: MONTH_ABBREVIATION YEAR
+    date_range: START_DATE – END_DATE
+    time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+    one_line_entry:
+      main_column: '**LABEL:** DETAILS'
+    education_entry:
+      main_column: |-
+        **INSTITUTION**, DEGREE_WITH_AREA -- LOCATION
+        SUMMARY
+        HIGHLIGHTS
+      degree_column:
+      date_and_location_column: DATE
+    normal_entry:
+      main_column: |-
+        **NAME** -- **LOCATION**
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: DATE
+    experience_entry:
+      main_column: |-
+        **POSITION**, COMPANY -- LOCATION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: DATE
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        SUMMARY
+        AUTHORS
+        URL (JOURNAL)
+      date_and_location_column: DATE
+locale:
+  language: spanish
+  last_updated: Última actualización
+  month: mes
+  months: meses
+  year: año
+  years: años
+  present: presente
+  phrases:
+    degree_with_area: DEGREE en AREA
+  month_abbreviations:
+    - Ene
+    - Feb
+    - Mar
+    - Abr
+    - May
+    - Jun
+    - Jul
+    - Ago
+    - Sep
+    - Oct
+    - Nov
+    - Dic
+  month_names:
+    - Enero
+    - Febrero
+    - Marzo
+    - Abril
+    - Mayo
+    - Junio
+    - Julio
+    - Agosto
+    - Septiembre
+    - Octubre
+    - Noviembre
+    - Diciembre
+settings:
+  render_command:
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV_es.pdf
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_png: true
