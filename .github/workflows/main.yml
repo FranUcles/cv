@@ -18,7 +18,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install RenderCV
-        run: pip install --upgrade rendercv
+        run: pip install "rendercv[full]"
 
       - name: Render Spanish CV
         run: rendercv render CV_es.yml
@@ -42,7 +42,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install RenderCV
-        run: pip install --upgrade rendercv
+        run: pip install "rendercv[full]"
 
       - name: Render English CV
         run: rendercv render CV_en.yml
