@@ -14,6 +14,13 @@ cv:
   custom_connections: []
   sections:
     education:
+      - institution: Politectical University of Madrid
+        area: Cibersecurity
+        degree: Master
+        date:
+        start_date: 2026-09
+        end_date: present
+        location: Madrid, Spain
       - institution: University of Murcia
         area: Computer Engineering
         degree: Bachelor's Degree

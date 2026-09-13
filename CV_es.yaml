@@ -14,6 +14,13 @@ cv:
   custom_connections: []
   sections:
     estudios:
+      - institution: Universidad Politécnica de Madrid
+        area: Ciberseguridad
+        degree: Máster
+        date:
+        start_date: 2026-09
+        end_date: present
+        location: Madrid, España
       - institution: Universidad de Murcia
         area: Ingeniería Informática
         degree: Grado
