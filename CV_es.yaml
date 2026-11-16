@@ -1,9 +1,8 @@
 cv:
   name: Francisco Ucles Ayllón
   headline: Matemático e Ingeniero Informático
-  location: Las Torres de Cotillas, Murcia
+  location: Madrid, España
   email: francisco.ucles.ayllon@gmail.com
-  phone: +34 691532846
   photo: photo.png
   website: "https://franucles.com"
   social_networks:
@@ -13,6 +12,18 @@ cv:
       username: "FranUcles"
   custom_connections: []
   sections:
+    sobre_mi:
+      - Me considero una persona ambiciosa con muchas ganas de desarrollarme y
+        crecer en el ámbito profesional y personal. Soy un apasionado de aprender y enfrentarme a 
+        nuevos retos, tanto teóricos como prácticos, que me resulten estimulantes. 
+        Las personas con las que he trabajado me describen como muy resolutivo y 
+        con una gran capacidad de trabajo en equipo. Incluso,
+        si la situación lo precisa, una capacidad de liderazgo considerable.
+      - Defiendo el aprendizaje autodidacta, con recursos consolidados, sobre los temas que me 
+        parecen interesantes como la criptografía o el pentesting. Además, me gusta
+        llevar a la práctica esos conocimientos con proyectos personales. Recientemente he realizado retos
+        en Cryptopals como formación complementaria a mis estudios de máster, y una librería criptográfica
+        que tengo publicada en mi GitHub.
     estudios:
       - institution: Universidad Politécnica de Madrid
         area: Ciberseguridad
@@ -40,7 +51,7 @@ cv:
         end_date: 2026-06
         location: Murcia, España
         summary: Grado en Matemáticas como parte de una doble titulación junto al Grado
-          en Ingeniería Informática con una media de 8.4
+          en Ingeniería Informática con una media de 8.7
       - institution: "NTNU: Norwegian University of Science and Technology"
         area: NTNU
         degree: Erasmus+
@@ -49,8 +60,8 @@ cv:
         location: Trondheim, Noruega
         summary: Realicé un Erasmus+ en Noruega donde llevé a cabo el desarrollo de un
           videojuego junto a un equipo de 6 personas de forma completamente
-          independiente. Además, aprendí acerca de las bases de la IA, los
-          algoritmos de búsqueda, teoría de juegos, ciberseguridad, entre otros.
+          independiente. Además, ahondé en los fundamentos y las aplicaciones de la criptografía
+          clásica, la teoría de grupos y su conexión con la ciberseguridad, entre otros temas.
         highlights: []
       - institution: TodoCode Academy
         area: Diseño de arquitectura
@@ -89,6 +100,15 @@ cv:
           para trabajar en el departo de Ingeniería de la Información y las
           Comunicaciones
     Proyectos personales:
+      - name: Librería de derivación de claves, KDF_tool
+        summary: Diseñé e implementé una pequeña librería para generar material criptográficamente
+          robusto haciendo uso de claves de paso. La herramienta proporciona una interfaz limpia
+          para transformar la clave de paso usando Argon2id y luego crear una jerarquía de claves
+          haciendo uso del esquema HKDF.
+      - name: Gestor de contenedores
+        summary: Diseñé e implementé un sistema básico de gestión de contenedores al estilo Docker. 
+          Este incluye un CLI para hacer peticiones, un daemon que se encarga de gestionar todos 
+          los contenedores y un runtime (+shim) encargado de la creación y la monitorización del contenedor.
       - name: Laboratorio de gestión de servicios
         date:
         start_date: 2025-09
@@ -101,22 +121,15 @@ cv:
           - Diseño de una arquitectura segura y robusta para los servicios.
           - Diseño y despliegue de un clúster de Kubernetes.
           - Despliegue de un servidor de correo, DNS y servidor web.
-          - Despliegue y gestión de autenticación y autoautenticación mediante
+          - Despliegue y gestión de autenticación mediante
             directorio LDAP y base de datos.
           - Despliegue en un entorno virtualizado mediante VirtualBox para
             simular un escenario real.
-      - name: Gestor de contenedores
-        summary: Diseñé e implementé un sistema básico de gestión de contenedores al estilo Docker. Este incluye un CLI para hacer peticiones, un daemon que se encarga de gestionar todos los contenedores y un runtime (+shim) encargado de la creación y la monitorización del contenedor.
-      - name: Diseño de un motor gráfico
-        summary: Estoy implementando un pequeño motor gráfico en C++ para renderizado
-          mediante OpenGL. La intención es crear una librería que permita
-          incluir físicas y convertirlo en un motor de juego.
-        date: present
     skills:
       - label: Lenguajes de programación y librerías
-        details: Python, C++, CUDA, Java, R, pandas, numpy, Spring Boot, OpenGL
+        details: Python, C++, CUDA, Java, R, cryptography, pandas, numpy, Spring Boot, OpenGL
       - label: Herramientas de desarrollador
-        details: Kubernetes, Docker, Git, GitHub Actions, 
+        details: Kubernetes, Docker, Git, GitHub Actions
     idiomas:
       - label: Español
         details: Nativo

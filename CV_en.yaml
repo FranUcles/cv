@@ -1,9 +1,8 @@
 cv:
   name: Francisco Ucles Ayllón
   headline: Mathematician and Computer Engineer
-  location: Las Torres de Cotillas, Murcia, Spain
+  location: Madrid, Spain
   email: francisco.ucles.ayllon@gmail.com
-  phone: +34 691532846
   photo: photo.png
   website: "https://franucles.com"
   social_networks:
@@ -13,6 +12,17 @@ cv:
       username: "FranUcles"
   custom_connections: []
   sections:
+    about_me:
+      - I'm an ambitious person with a strong drive to grow, both professionally and
+        personally. I'm passionate about learning and taking on new challenges, whether
+        theoretical or practical, that I find stimulating. People I've worked with describe
+        me as resourceful and a strong team player, and I can step up and lead when the
+        situation calls for it.
+      - I'm a firm believer in self-directed learning, using well-established resources, on
+        topics that interest me, such as cryptography and pentesting. I also like to put that
+        knowledge into practice through personal projects. Recently, I completed challenges on
+        Cryptopals to complement my master's studies, and I published a cryptographic library
+        on my GitHub.
     education:
       - institution: Politectical University of Madrid
         area: Cibersecurity
@@ -29,7 +39,7 @@ cv:
         end_date: 2026-06
         location: Murcia, Spain
         summary: Bachelor's Degree in Computer Engineering, part of a dual degree
-          program together with the Bachelor's Degree in Mathematics, with a GPA of 9.06/10
+          program together with the Bachelor's Degree in Mathematics, with a GPA of 9.06
         highlights:
           - Specialization in operating systems, computer architecture and low-level programming
       - institution: University of Murcia
@@ -40,7 +50,7 @@ cv:
         end_date: 2026-06
         location: Murcia, Spain
         summary: Bachelor's Degree in Mathematics, part of a dual degree program together
-          with the Bachelor's Degree in Computer Engineering, with a GPA of 8.4/10
+          with the Bachelor's Degree in Computer Engineering, with a GPA of 8.7
       - institution: "NTNU: Norwegian University of Science and Technology"
         area: NTNU
         degree: Erasmus+
@@ -48,9 +58,9 @@ cv:
         end_date: 2024-07
         location: Trondheim, Norway
         summary: I completed an Erasmus+ exchange in Norway, where I independently
-          developed a video game as part of a 6-person team. I also learned the
-          fundamentals of AI, search algorithms, game theory, cybersecurity, among
-          other topics.
+          developed a video game as part of a 6-person team. Additionally, I explored the 
+          fundamentals and applications of classical cryptography
+          and group theory, and how they connect to cybersecurity, among other topics.
         highlights: []
       - institution: TodoCode Academy
         area: Architecture Design
@@ -87,6 +97,16 @@ cv:
         summary: While working on my Bachelor's thesis, I received a collaboration
           grant to work in the Information and Communications Engineering department.
     personal_projects:
+      - name: Key derivation library, KDF_tool
+        summary: I designed and implemented a small library for generating cryptographically
+          strong key material from passphrases. The tool provides a clean interface to
+          transform the passphrase using Argon2id and then build a key hierarchy using
+          the HKDF scheme.
+      - name: Container Manager
+        summary: I designed and implemented a basic Docker-style container management
+          system. It includes a CLI for making requests, a daemon responsible for
+          managing all containers, and a runtime (+ shim) responsible for
+          creating and monitoring each container.
       - name: Service Management Lab
         date:
         start_date: 2025-09
@@ -103,19 +123,9 @@ cv:
             an LDAP directory and a database.
           - Deployed the setup in a virtualized environment using VirtualBox to
             simulate a real-world scenario.
-      - name: Container Manager
-        summary: I designed and implemented a basic Docker-style container management
-          system. It includes a CLI for making requests, a daemon responsible for
-          managing all containers, and a runtime (+ shim) responsible for
-          creating and monitoring each container.
-      - name: Graphics Engine Design
-        summary: I am building a small graphics engine in C++ for rendering with
-          OpenGL. The goal is to create a library that supports physics and
-          eventually turn it into a game engine.
-        date: present
     skills:
       - label: Programming Languages and Libraries
-        details: Python, C++, CUDA, Java, R, pandas, numpy, Spring Boot, OpenGL
+        details: Python, C++, CUDA, Java, R, cryptography, pandas, numpy, Spring Boot, OpenGL
       - label: Developer Tools
         details: Kubernetes, Docker, Git, GitHub Actions
     languages:
